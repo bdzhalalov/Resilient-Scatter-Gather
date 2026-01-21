@@ -1,0 +1,6 @@
+logs/*
+.gitignore
+Dockerfile
+Makefile
+.idea
+*.yml

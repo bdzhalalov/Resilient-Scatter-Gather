@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  resilient-scatter-gather:
+    container_name: resilient-scatter-gather
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/var/www/
